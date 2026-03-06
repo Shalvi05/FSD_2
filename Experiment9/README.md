@@ -26,10 +26,10 @@ Experiment9/
 │
 └── screenshots/              # Store your PNG images here
     ├── BASICAUTH.png
-    ├── JWTGEN.png
-    ├── JWTACCESS.png
-    ├── TOKENACCESS.png
-    ├── TOKENAGEN.png
+    ├── JWTLOGIN.png
+    ├── JWTREAD.png
+    ├── TOKENLOGIN.png
+    ├── TOKENREAD.png
     ├── RENDERSERVER.png
 ```
 
@@ -42,7 +42,7 @@ Experiment9/
 - Render (Cloud Deployment)
 - Virtual Environment (venv)
 
-### Deployment Base URL --> [Render Link](https://two3bis70052experiment9fsd2.onrender.com/)
+### Deployment Base URL --> [Render Link](https://two3bis70047exp9fsd2.onrender.com/)
 
 
 ## STEPS & SCREENSHOTS
@@ -54,16 +54,16 @@ Flask development server successfully started.
 ![Basic Authorization](BASICAUTH.png)
 
 ### 3. Generate Token(POST)
-![Token Generation](TOKENGEN.png)
+![Token Generation](JWTLOGIN.png)
 
 ### 4. Access Token(GET)
-![Token Access](TOKENACCESS.png)
+![Token Access](TOKENREAD.png)
 
 ### 5. Generate JWT Token(Post)
-![Jwt Token Generation](JWTGEN.png)
+![Jwt Token Generation](JWTLOGIN.png)
 
 ### 6. Access JWT Token(GET)
-![JWT Access](JWTACCESS.png)
+![JWT Access](JWTREAD.png)
 
 
 
