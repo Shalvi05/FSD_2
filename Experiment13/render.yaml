@@ -6,10 +6,10 @@ services:
     startCommand: "gunicorn app:app"
     envVars:
       - key: MYSQL_HOST
-        value: caboose.proxy.rlwy.net
+        value: mainline.proxy.rlwy.net
       - key: MYSQL_USER
         value: root
       - key: MYSQL_PASSWORD
-        value: DvCfODAYEqlEzJQiacKGSjmvGLbQPJyn
+        value: mtkgPmQMauTOfAxFQlxunmIkeUgGJrjH
       - key: MYSQL_DB
         value: railway
